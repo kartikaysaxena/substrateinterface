@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/registry"
+	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 // Event holds all the information of a decoded storage event.

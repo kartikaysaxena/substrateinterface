@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
+	"github.com/kartikaysaxena/susbtrateinterface/client"
+	"github.com/kartikaysaxena/susbtrateinterface/config"
 )
 
 var testBeefy Beefy

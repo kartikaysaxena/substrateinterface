@@ -23,9 +23,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 //go:generate go run ./test-gen test_data meta_bytes storage_bytes

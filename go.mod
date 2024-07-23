@@ -1,4 +1,4 @@
-module github.com/centrifuge/go-substrate-rpc-client/v4
+module github.com/kartikaysaxena/susbtrateinterface
 
 go 1.21
 

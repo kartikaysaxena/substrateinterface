@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 //go:generate mockery --name Factory --structname FactoryMock --filename factory_mock.go --inpackage

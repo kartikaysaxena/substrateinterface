@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/kartikaysaxena/susbtrateinterface/scale"
 )
 
 // Hexer interface is implemented by any type that has a Hex() function returning a string

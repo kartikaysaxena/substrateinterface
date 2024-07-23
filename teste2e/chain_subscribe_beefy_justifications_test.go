@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
+	"github.com/kartikaysaxena/susbtrateinterface/config"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

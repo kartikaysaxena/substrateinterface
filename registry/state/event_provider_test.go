@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state/mocks"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/susbtrateinterface/rpc/state/mocks"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

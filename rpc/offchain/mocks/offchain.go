@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	offchain "github.com/centrifuge/go-substrate-rpc-client/v4/rpc/offchain"
-	types "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	offchain "github.com/kartikaysaxena/susbtrateinterface/rpc/offchain"
+	types "github.com/kartikaysaxena/susbtrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

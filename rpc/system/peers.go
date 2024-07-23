@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 // Peers retrieves the currently connected peers

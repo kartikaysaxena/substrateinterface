@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/hash"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/xxhash"
+	"github.com/kartikaysaxena/susbtrateinterface/hash"
+	. "github.com/kartikaysaxena/susbtrateinterface/types"
+	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
+	"github.com/kartikaysaxena/susbtrateinterface/xxhash"
 	"github.com/stretchr/testify/assert"
 )
 

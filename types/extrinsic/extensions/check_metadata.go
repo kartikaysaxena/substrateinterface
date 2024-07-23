@@ -2,8 +2,8 @@ package extensions
 
 import (
 	"errors"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 type CheckMetadataMode byte

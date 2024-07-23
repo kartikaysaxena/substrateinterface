@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
+	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
+	"github.com/kartikaysaxena/susbtrateinterface/config"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,8 +17,8 @@
 package author
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 )
 
 // PendingExtrinsics returns all pending extrinsics, potentially grouped by sender

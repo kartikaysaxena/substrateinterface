@@ -3,12 +3,12 @@ package retriever
 import (
 	"time"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/exec"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/parser"
-	regState "github.com/centrifuge/go-substrate-rpc-client/v4/registry/state"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/registry"
+	"github.com/kartikaysaxena/susbtrateinterface/registry/exec"
+	"github.com/kartikaysaxena/susbtrateinterface/registry/parser"
+	regState "github.com/kartikaysaxena/susbtrateinterface/registry/state"
+	"github.com/kartikaysaxena/susbtrateinterface/rpc/state"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 //nolint:lll

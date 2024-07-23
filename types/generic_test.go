@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	. "github.com/kartikaysaxena/susbtrateinterface/types"
 
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
+	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 )

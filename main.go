@@ -17,8 +17,8 @@
 package gsrpc
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc"
+	"github.com/kartikaysaxena/susbtrateinterface/client"
+	"github.com/kartikaysaxena/susbtrateinterface/rpc"
 )
 
 type SubstrateAPI struct {

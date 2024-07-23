@@ -18,8 +18,8 @@
 package types
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 )
 
 // PayloadItem ...

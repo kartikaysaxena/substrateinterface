@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	state "github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state"
-	types "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	state "github.com/kartikaysaxena/susbtrateinterface/rpc/state"
+	types "github.com/kartikaysaxena/susbtrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

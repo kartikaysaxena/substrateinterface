@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/kartikaysaxena/susbtrateinterface/scale"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/test"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/susbtrateinterface/registry/test"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

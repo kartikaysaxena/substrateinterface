@@ -19,8 +19,8 @@
 package offchain
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/susbtrateinterface/client"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
 )
 
 type Offchain interface {

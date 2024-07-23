@@ -18,13 +18,13 @@ package author
 
 import (
 	"context"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
+	"github.com/kartikaysaxena/susbtrateinterface/types/extrinsic"
 	"sync"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	gethrpc "github.com/centrifuge/go-substrate-rpc-client/v4/gethrpc"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/susbtrateinterface/config"
+	gethrpc "github.com/kartikaysaxena/susbtrateinterface/gethrpc"
+	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
 )
 
 // ExtrinsicStatusSubscription is a subscription established through one of the Client's subscribe methods.

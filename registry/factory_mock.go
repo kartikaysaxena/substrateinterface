@@ -3,7 +3,7 @@
 package registry
 
 import (
-	types "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	types "github.com/kartikaysaxena/susbtrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 
