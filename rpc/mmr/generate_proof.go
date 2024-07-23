@@ -17,8 +17,8 @@
 package mmr
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // GenerateProof retrieves a MMR proof and leaf for the specified leave index, at the given blockHash (useful to query a

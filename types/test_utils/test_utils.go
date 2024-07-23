@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/blake2b"

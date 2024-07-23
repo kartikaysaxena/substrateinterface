@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // MigrationCompute is an enum describing how a migration was computed.

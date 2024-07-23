@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	. "github.com/kartikaysaxena/susbtrateinterface/types"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // Health retrieves the health status of the connected node

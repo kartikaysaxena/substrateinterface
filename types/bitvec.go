@@ -7,7 +7,7 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type BitOrder uint

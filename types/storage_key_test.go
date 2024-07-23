@@ -22,11 +22,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/hash"
-	. "github.com/kartikaysaxena/susbtrateinterface/types"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
-	"github.com/kartikaysaxena/susbtrateinterface/xxhash"
+	"github.com/kartikaysaxena/substrateinterface/hash"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
+	"github.com/kartikaysaxena/substrateinterface/xxhash"
 	"github.com/stretchr/testify/assert"
 )
 

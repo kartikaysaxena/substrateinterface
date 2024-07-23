@@ -22,7 +22,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 func main() { //nolint: funlen

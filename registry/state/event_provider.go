@@ -1,9 +1,9 @@
 package state
 
 import (
-	libErr "github.com/kartikaysaxena/susbtrateinterface/error"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/state"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	libErr "github.com/kartikaysaxena/substrateinterface/error"
+	"github.com/kartikaysaxena/substrateinterface/rpc/state"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 const (

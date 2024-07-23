@@ -22,7 +22,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 

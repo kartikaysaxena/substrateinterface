@@ -17,8 +17,8 @@
 package chain
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // GetBlock returns the header and body of the relay chain block with the given hash

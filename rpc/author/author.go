@@ -19,9 +19,9 @@
 package author
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/extrinsic"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
 )
 
 type Author interface {

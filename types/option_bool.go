@@ -19,7 +19,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // OptionBool is a structure that can store a Bool or a missing value

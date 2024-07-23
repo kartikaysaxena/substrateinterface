@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // Modelled after packages/types/src/Metadata/v8/Metadata.ts

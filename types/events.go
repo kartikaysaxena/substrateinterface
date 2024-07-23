@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // EventClaimsClaimed is emitted when an account claims some DOTs

@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/xxhash"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/xxhash"
 )
 
 // StorageKey represents typically hashed storage keys of the system.

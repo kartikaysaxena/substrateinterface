@@ -19,8 +19,8 @@
 package mmr
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // MMR exposes methods for retrieval of MMR data

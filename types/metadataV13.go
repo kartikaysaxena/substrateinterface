@@ -21,7 +21,7 @@ import (
 	"hash"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type MetadataV13 struct {

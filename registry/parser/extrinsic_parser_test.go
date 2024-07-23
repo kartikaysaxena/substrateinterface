@@ -6,11 +6,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/chain/generic"
+	"github.com/kartikaysaxena/substrateinterface/rpc/chain/generic"
 
-	"github.com/kartikaysaxena/susbtrateinterface/registry"
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/registry"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types"
 	"github.com/stretchr/testify/assert"
 )
 

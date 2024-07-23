@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	rpc "github.com/kartikaysaxena/susbtrateinterface/gethrpc"
+	rpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
 	mock "github.com/stretchr/testify/mock"
 )
 

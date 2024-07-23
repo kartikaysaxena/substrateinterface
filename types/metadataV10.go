@@ -22,9 +22,9 @@ import (
 	"hash"
 	"strings"
 
-	ghash "github.com/kartikaysaxena/susbtrateinterface/hash"
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/xxhash"
+	ghash "github.com/kartikaysaxena/substrateinterface/hash"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/xxhash"
 )
 
 // Modelled after packages/types/src/Metadata/v10/Metadata.ts

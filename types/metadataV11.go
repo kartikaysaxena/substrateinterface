@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/kartikaysaxena/susbtrateinterface/scale"
+import "github.com/kartikaysaxena/substrateinterface/scale"
 
 // Modelled after packages/types/src/Metadata/v10/toV11.ts
 type MetadataV11 struct {

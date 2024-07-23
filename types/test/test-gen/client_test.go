@@ -27,16 +27,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
-	mockClient "github.com/kartikaysaxena/susbtrateinterface/client/mocks"
-	mockChain "github.com/kartikaysaxena/susbtrateinterface/rpc/chain/mocks"
-	mockState "github.com/kartikaysaxena/susbtrateinterface/rpc/state/mocks"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
+	mockClient "github.com/kartikaysaxena/substrateinterface/client/mocks"
+	mockChain "github.com/kartikaysaxena/substrateinterface/rpc/chain/mocks"
+	mockState "github.com/kartikaysaxena/substrateinterface/rpc/state/mocks"
 
-	"github.com/kartikaysaxena/susbtrateinterface/rpc"
-	"github.com/kartikaysaxena/susbtrateinterface/rpcmocksrv"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/rpc"
+	"github.com/kartikaysaxena/substrateinterface/rpcmocksrv"
+	"github.com/kartikaysaxena/substrateinterface/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -19,7 +19,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // DigestItem specifies the item in the logs of a digest

@@ -1,8 +1,8 @@
 package extrinsic
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/extrinsic/extensions"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/extrinsic/extensions"
 )
 
 // SignedFieldValues is a map that holds a value for a particular SignedFieldName.

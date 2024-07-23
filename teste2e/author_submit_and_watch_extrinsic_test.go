@@ -21,10 +21,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/author"
-	"github.com/kartikaysaxena/susbtrateinterface/signature"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/rpc/author"
+	"github.com/kartikaysaxena/substrateinterface/signature"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

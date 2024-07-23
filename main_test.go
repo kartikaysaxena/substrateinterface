@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
-	"github.com/kartikaysaxena/susbtrateinterface/config"
-	"github.com/kartikaysaxena/susbtrateinterface/signature"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
+	"github.com/kartikaysaxena/substrateinterface/config"
+	"github.com/kartikaysaxena/substrateinterface/signature"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 func Example_simpleConnect() {

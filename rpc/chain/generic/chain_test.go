@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/client/mocks"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client/mocks"
+	"github.com/kartikaysaxena/substrateinterface/types"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

@@ -19,9 +19,9 @@ package types
 import (
 	"fmt"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/signature"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/signature"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 // ExtrinsicPayloadV3 is a signing payload for an Extrinsic. For the final encoding, it is variable length based on

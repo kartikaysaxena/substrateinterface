@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // Data is a raw data structure, containing raw bytes that are not decoded/encoded (without any length encoding).

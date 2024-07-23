@@ -17,8 +17,8 @@
 package author
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 // SubmitExtrinsic will submit a fully formatted extrinsic for block inclusion

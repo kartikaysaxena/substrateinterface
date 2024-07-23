@@ -20,11 +20,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/rpcmocksrv"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/rpcmocksrv"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 var testSystem System

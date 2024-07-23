@@ -19,8 +19,8 @@ package types
 import (
 	"fmt"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 // Address is a wrapper around an AccountId or an AccountIndex. It is encoded with a prefix in case of an AccountID.

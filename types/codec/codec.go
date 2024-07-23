@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // Hexer interface is implemented by any type that has a Hex() function returning a string

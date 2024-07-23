@@ -3,7 +3,7 @@
 package generic
 
 import (
-	types "github.com/kartikaysaxena/susbtrateinterface/types"
+	types "github.com/kartikaysaxena/substrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -17,8 +17,8 @@
 package state
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // QueryStorage queries historical storage entries (by key) starting from a start block until an end block

@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // ExtrinsicEra indicates either a mortal or immortal extrinsic

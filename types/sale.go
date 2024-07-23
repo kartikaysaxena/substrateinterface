@@ -19,7 +19,7 @@ package types
 import (
 	"errors"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type Tranche struct {

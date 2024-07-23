@@ -21,7 +21,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 const (

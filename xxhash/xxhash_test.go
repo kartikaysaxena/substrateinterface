@@ -19,7 +19,7 @@ package xxhash_test
 import (
 	"testing"
 
-	. "github.com/kartikaysaxena/susbtrateinterface/xxhash"
+	. "github.com/kartikaysaxena/substrateinterface/xxhash"
 	"github.com/stretchr/testify/assert"
 )
 

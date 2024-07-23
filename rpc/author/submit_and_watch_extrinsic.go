@@ -18,13 +18,13 @@ package author
 
 import (
 	"context"
-	"github.com/kartikaysaxena/susbtrateinterface/types/extrinsic"
+	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
 	"sync"
 
-	"github.com/kartikaysaxena/susbtrateinterface/config"
-	gethrpc "github.com/kartikaysaxena/susbtrateinterface/gethrpc"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/config"
+	gethrpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 // ExtrinsicStatusSubscription is a subscription established through one of the Client's subscribe methods.

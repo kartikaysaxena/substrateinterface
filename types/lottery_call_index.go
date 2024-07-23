@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/kartikaysaxena/susbtrateinterface/scale"
+import "github.com/kartikaysaxena/substrateinterface/scale"
 
 type LotteryCallIndex struct {
 	PalletIndex U8

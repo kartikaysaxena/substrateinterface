@@ -22,7 +22,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type Header struct {

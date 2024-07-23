@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/kartikaysaxena/susbtrateinterface/scale"
+import "github.com/kartikaysaxena/substrateinterface/scale"
 
 // OptionH160 is a structure that can store a H160 or a missing value
 type OptionH160 struct {

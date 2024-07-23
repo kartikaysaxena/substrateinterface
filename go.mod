@@ -1,4 +1,4 @@
-module github.com/kartikaysaxena/susbtrateinterface
+module github.com/kartikaysaxena/substrateinterface
 
 go 1.21
 

@@ -19,9 +19,9 @@ package types_test
 import (
 	"testing"
 
-	. "github.com/kartikaysaxena/susbtrateinterface/types"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
 )
 
 func TestAccountInfoV4_EncodeDecode(t *testing.T) {

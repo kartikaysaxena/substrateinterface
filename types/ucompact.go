@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type UCompact big.Int

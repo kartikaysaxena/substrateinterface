@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // Version retrieves the version of the node

@@ -17,7 +17,7 @@
 package beefy
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // GetFinalizedHead returns the hash of the latest BEEFY block

@@ -1,9 +1,9 @@
 package generic
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	libErr "github.com/kartikaysaxena/susbtrateinterface/error"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	libErr "github.com/kartikaysaxena/substrateinterface/error"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 const (

@@ -3,12 +3,12 @@ package retriever
 import (
 	"time"
 
-	"github.com/kartikaysaxena/susbtrateinterface/registry"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/exec"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/parser"
-	regState "github.com/kartikaysaxena/susbtrateinterface/registry/state"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/state"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/registry"
+	"github.com/kartikaysaxena/substrateinterface/registry/exec"
+	"github.com/kartikaysaxena/substrateinterface/registry/parser"
+	regState "github.com/kartikaysaxena/substrateinterface/registry/state"
+	"github.com/kartikaysaxena/substrateinterface/rpc/state"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 //nolint:lll

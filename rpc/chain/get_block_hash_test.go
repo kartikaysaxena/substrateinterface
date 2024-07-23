@@ -19,7 +19,7 @@ package chain
 import (
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 	"github.com/stretchr/testify/assert"
 )
 

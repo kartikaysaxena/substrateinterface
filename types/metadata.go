@@ -21,8 +21,8 @@ import (
 	"hash"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/xxhash"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/xxhash"
 )
 
 const MagicNumber uint32 = 0x6174656d

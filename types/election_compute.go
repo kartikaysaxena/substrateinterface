@@ -19,7 +19,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type OptionElectionCompute struct {

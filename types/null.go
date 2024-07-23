@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // Null is a type that does not contain anything (apart from null)

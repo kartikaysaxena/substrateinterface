@@ -23,9 +23,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 //go:generate go run ./test-gen test_data meta_bytes storage_bytes

@@ -17,7 +17,7 @@
 package chain
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // GetBlockHash returns the block hash for a specific block height

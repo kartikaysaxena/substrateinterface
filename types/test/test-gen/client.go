@@ -26,11 +26,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
 )
 
 type ClientOpts struct {

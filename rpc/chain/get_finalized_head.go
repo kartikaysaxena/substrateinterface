@@ -17,7 +17,7 @@
 package chain
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // GetFinalizedHead returns the hash of the last finalized block in the canon chain

@@ -2,8 +2,8 @@ package extrinsic
 
 import (
 	"fmt"
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // Signature holds all the relevant fields for an extrinsic signature.

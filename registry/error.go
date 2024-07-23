@@ -1,6 +1,6 @@
 package registry
 
-import libErr "github.com/kartikaysaxena/susbtrateinterface/error"
+import libErr "github.com/kartikaysaxena/substrateinterface/error"
 
 const (
 	ErrRecursiveDecodersResolving            = libErr.Error("recursive decoders resolving")

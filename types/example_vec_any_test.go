@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 // MyVal is a custom type that is used to hold arbitrarily encoded data. In this example, we encode uint8s with a 0x00

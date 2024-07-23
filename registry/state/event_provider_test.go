@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/state/mocks"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/rpc/state/mocks"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

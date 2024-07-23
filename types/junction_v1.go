@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type JunctionV1 struct {

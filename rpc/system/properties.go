@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // Properties retrieves a custom set of properties as a JSON object, defined in the chain spec

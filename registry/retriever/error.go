@@ -1,6 +1,6 @@
 package retriever
 
-import libErr "github.com/kartikaysaxena/susbtrateinterface/error"
+import libErr "github.com/kartikaysaxena/substrateinterface/error"
 
 const (
 	ErrInternalStateUpdate   = libErr.Error("internal state update")

@@ -17,15 +17,15 @@
 package rpc
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/author"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/beefy"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/chain"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/mmr"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/offchain"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/state"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/system"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/rpc/author"
+	"github.com/kartikaysaxena/substrateinterface/rpc/beefy"
+	"github.com/kartikaysaxena/substrateinterface/rpc/chain"
+	"github.com/kartikaysaxena/substrateinterface/rpc/mmr"
+	"github.com/kartikaysaxena/substrateinterface/rpc/offchain"
+	"github.com/kartikaysaxena/substrateinterface/rpc/state"
+	"github.com/kartikaysaxena/substrateinterface/rpc/system"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 type RPC struct {

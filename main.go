@@ -17,8 +17,8 @@
 package gsrpc
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/rpc"
 )
 
 type SubstrateAPI struct {

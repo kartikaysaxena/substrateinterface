@@ -1,6 +1,6 @@
 package types
 
-import "github.com/kartikaysaxena/susbtrateinterface/scale"
+import "github.com/kartikaysaxena/substrateinterface/scale"
 
 type Option[T any] struct {
 	hasValue bool

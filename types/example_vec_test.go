@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"reflect"
 
-	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 func ExampleExampleVec_simple() {

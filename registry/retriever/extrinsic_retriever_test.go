@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/registry"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/exec"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/parser"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/chain/generic"
-	stateMocks "github.com/kartikaysaxena/susbtrateinterface/rpc/state/mocks"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/registry"
+	"github.com/kartikaysaxena/substrateinterface/registry/exec"
+	"github.com/kartikaysaxena/substrateinterface/registry/parser"
+	"github.com/kartikaysaxena/substrateinterface/rpc/chain/generic"
+	stateMocks "github.com/kartikaysaxena/substrateinterface/rpc/state/mocks"
+	"github.com/kartikaysaxena/substrateinterface/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

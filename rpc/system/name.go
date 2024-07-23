@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // Name retrieves the node name

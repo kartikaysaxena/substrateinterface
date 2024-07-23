@@ -9,8 +9,8 @@ import (
 	"sync"
 	"testing"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/state"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
+	"github.com/kartikaysaxena/substrateinterface/registry/state"
 )
 
 var (

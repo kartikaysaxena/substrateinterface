@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	. "github.com/kartikaysaxena/susbtrateinterface/types"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
 )
 
 func TestGenerateMMRProofResponse_Unmarshal(t *testing.T) {

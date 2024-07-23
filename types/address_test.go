@@ -23,11 +23,11 @@ import (
 	"testing"
 
 	"github.com/btcsuite/btcutil/base58"
-	"github.com/kartikaysaxena/susbtrateinterface/hash"
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	. "github.com/kartikaysaxena/susbtrateinterface/types"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/codec"
-	. "github.com/kartikaysaxena/susbtrateinterface/types/test_utils"
+	"github.com/kartikaysaxena/substrateinterface/hash"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 )

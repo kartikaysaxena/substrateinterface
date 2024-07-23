@@ -22,7 +22,7 @@ import (
 	"hash"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // nolint:lll

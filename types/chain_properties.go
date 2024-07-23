@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // ChainProperties contains the SS58 format, the token decimals and the token symbol

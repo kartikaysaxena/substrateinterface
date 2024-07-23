@@ -20,8 +20,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kartikaysaxena/susbtrateinterface/client"
-	"github.com/kartikaysaxena/susbtrateinterface/config"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/config"
 )
 
 var testChain Chain

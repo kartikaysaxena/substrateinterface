@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	offchain "github.com/kartikaysaxena/susbtrateinterface/rpc/offchain"
-	types "github.com/kartikaysaxena/susbtrateinterface/types"
+	offchain "github.com/kartikaysaxena/substrateinterface/rpc/offchain"
+	types "github.com/kartikaysaxena/substrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

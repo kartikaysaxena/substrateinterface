@@ -3,11 +3,11 @@ package author_test
 import (
 	"testing"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
-	"github.com/kartikaysaxena/susbtrateinterface/config"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/author"
-	"github.com/kartikaysaxena/susbtrateinterface/signature"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
+	"github.com/kartikaysaxena/substrateinterface/config"
+	"github.com/kartikaysaxena/substrateinterface/rpc/author"
+	"github.com/kartikaysaxena/substrateinterface/signature"
+	"github.com/kartikaysaxena/substrateinterface/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
-	"github.com/kartikaysaxena/susbtrateinterface/config"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
+	"github.com/kartikaysaxena/substrateinterface/config"
 	"github.com/stretchr/testify/assert"
 )
 

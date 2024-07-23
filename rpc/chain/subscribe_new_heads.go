@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/kartikaysaxena/susbtrateinterface/config"
-	gethrpc "github.com/kartikaysaxena/susbtrateinterface/gethrpc"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/config"
+	gethrpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // NewHeadsSubscription is a subscription established through one of the Client's subscribe methods.

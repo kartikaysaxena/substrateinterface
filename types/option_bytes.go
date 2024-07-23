@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/kartikaysaxena/susbtrateinterface/scale"
+import "github.com/kartikaysaxena/substrateinterface/scale"
 
 // OptionBytes is a structure that can store a Bytes or a missing value
 type OptionBytes struct {

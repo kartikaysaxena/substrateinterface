@@ -21,7 +21,7 @@ import (
 	"hash"
 	"strings"
 
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 // Modelled after packages/types/src/Metadata/v7/Metadata.ts

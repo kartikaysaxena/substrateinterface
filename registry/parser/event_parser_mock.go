@@ -3,8 +3,8 @@
 package parser
 
 import (
-	registry "github.com/kartikaysaxena/susbtrateinterface/registry"
-	types "github.com/kartikaysaxena/susbtrateinterface/types"
+	registry "github.com/kartikaysaxena/substrateinterface/registry"
+	types "github.com/kartikaysaxena/substrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

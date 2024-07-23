@@ -20,8 +20,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	. "github.com/kartikaysaxena/susbtrateinterface/signature"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/signature"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

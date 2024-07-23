@@ -21,7 +21,7 @@ import (
 	"strconv"
 	"time"
 
-	gethrpc "github.com/kartikaysaxena/susbtrateinterface/gethrpc"
+	gethrpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
 )
 
 type Server struct {

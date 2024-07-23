@@ -19,10 +19,10 @@ package client
 import (
 	"context"
 
-	"github.com/kartikaysaxena/susbtrateinterface/config"
-	gethrpc "github.com/kartikaysaxena/susbtrateinterface/gethrpc"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
-	"github.com/kartikaysaxena/susbtrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/config"
+	gethrpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 //go:generate mockery --name Client

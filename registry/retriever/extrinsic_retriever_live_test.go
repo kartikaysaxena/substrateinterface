@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/kartikaysaxena/susbtrateinterface"
-	"github.com/kartikaysaxena/susbtrateinterface/registry"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/exec"
-	"github.com/kartikaysaxena/susbtrateinterface/registry/parser"
-	"github.com/kartikaysaxena/susbtrateinterface/rpc/chain/generic"
-	"github.com/kartikaysaxena/susbtrateinterface/scale"
-	"github.com/kartikaysaxena/susbtrateinterface/types"
+	gsrpc "github.com/kartikaysaxena/substrateinterface"
+	"github.com/kartikaysaxena/substrateinterface/registry"
+	"github.com/kartikaysaxena/substrateinterface/registry/exec"
+	"github.com/kartikaysaxena/substrateinterface/registry/parser"
+	"github.com/kartikaysaxena/substrateinterface/rpc/chain/generic"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 var (

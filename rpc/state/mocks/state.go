@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	state "github.com/kartikaysaxena/susbtrateinterface/rpc/state"
-	types "github.com/kartikaysaxena/susbtrateinterface/types"
+	state "github.com/kartikaysaxena/substrateinterface/rpc/state"
+	types "github.com/kartikaysaxena/substrateinterface/types"
 	mock "github.com/stretchr/testify/mock"
 )
 
