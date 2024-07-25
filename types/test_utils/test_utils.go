@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	fuzz "github.com/google/gofuzz"
 	"github.com/kartikaysaxena/substrateinterface/scale"
 	"github.com/kartikaysaxena/substrateinterface/types/codec"
-	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/crypto/blake2b"
 )

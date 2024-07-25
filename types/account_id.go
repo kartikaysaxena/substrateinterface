@@ -22,8 +22,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/kartikaysaxena/substrateinterface/scale"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 )
 
 type OptionAccountID struct {

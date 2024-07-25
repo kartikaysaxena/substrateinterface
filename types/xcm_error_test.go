@@ -19,9 +19,9 @@ package types_test
 import (
 	"testing"
 
+	fuzz "github.com/google/gofuzz"
 	. "github.com/kartikaysaxena/substrateinterface/types"
 	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
-	fuzz "github.com/google/gofuzz"
 )
 
 var (
