@@ -3,8 +3,8 @@ package extrinsic
 import (
 	"fmt"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // Signature holds all the relevant fields for an extrinsic signature.

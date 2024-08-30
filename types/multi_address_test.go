@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
 	fuzz "github.com/google/gofuzz"
+	"github.com/kartikaysaxena/substrateinterface/signature"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
 	"github.com/stretchr/testify/assert"
 )
 

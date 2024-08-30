@@ -17,15 +17,15 @@
 package rpc
 
 import (
-	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/beefy"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/mmr"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/offchain"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/system"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/substrateinterface/client"
+	"github.com/kartikaysaxena/substrateinterface/rpc/author"
+	"github.com/kartikaysaxena/substrateinterface/rpc/beefy"
+	"github.com/kartikaysaxena/substrateinterface/rpc/chain"
+	"github.com/kartikaysaxena/substrateinterface/rpc/mmr"
+	"github.com/kartikaysaxena/substrateinterface/rpc/offchain"
+	"github.com/kartikaysaxena/substrateinterface/rpc/state"
+	"github.com/kartikaysaxena/substrateinterface/rpc/system"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 type RPC struct {
