@@ -9,8 +9,8 @@ import (
 	"sync"
 	"testing"
 
-	gsrpc "github.com/kartikaysaxena/substrateinterface"
-	"github.com/kartikaysaxena/substrateinterface/registry/state"
+	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/state"
 )
 
 var (

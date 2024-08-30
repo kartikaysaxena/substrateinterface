@@ -1,9 +1,9 @@
 package state
 
 import (
-	libErr "github.com/kartikaysaxena/substrateinterface/error"
-	"github.com/kartikaysaxena/substrateinterface/rpc/state"
-	"github.com/kartikaysaxena/substrateinterface/types"
+	libErr "github.com/centrifuge/go-substrate-rpc-client/v4/error"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 const (

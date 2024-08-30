@@ -4,16 +4,16 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/kartikaysaxena/substrateinterface/registry"
-	"github.com/kartikaysaxena/substrateinterface/rpc/chain/generic"
-	"github.com/kartikaysaxena/substrateinterface/scale"
-	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain/generic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 // DefaultExtrinsic is the Extrinsic with defaults for the generic types:
 //
 // Address - types.MultiAddress
-// Signature - types.MultiSignature
+// SignatureHash - types.MultiSignature
 // PaymentFields - generic.DefaultPaymentFields
 type DefaultExtrinsic = Extrinsic[
 	types.MultiAddress,
@@ -102,7 +102,7 @@ func NewExtrinsicParser[A, S, P any]() ExtrinsicParser[A, S, P] {
 // DefaultExtrinsicParser is the ExtrinsicParser interface with defaults for the generic types:
 //
 // Address - types.MultiAddress
-// Signature - types.MultiSignature
+// SignatureHash - types.MultiSignature
 // PaymentFields - generic.DefaultPaymentFields
 type DefaultExtrinsicParser = ExtrinsicParser[
 	types.MultiAddress,

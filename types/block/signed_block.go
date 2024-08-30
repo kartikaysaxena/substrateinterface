@@ -14,15 +14,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package types
+package block
+
+import (
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
+)
 
 type SignedBlock struct {
-	Block         Block         `json:"block"`
-	Justification Justification `json:"justification"`
+	Block         Block               `json:"block"`
+	Justification types.Justification `json:"justification"`
 }
 
 // Block encoded with header and extrinsics
 type Block struct {
-	Header     Header
-	Extrinsics []Extrinsic
+	Header     types.Header
+	Extrinsics []extrinsic.Extrinsic
 }

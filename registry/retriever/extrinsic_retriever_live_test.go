@@ -11,13 +11,13 @@ import (
 	"testing"
 	"time"
 
-	gsrpc "github.com/kartikaysaxena/substrateinterface"
-	"github.com/kartikaysaxena/substrateinterface/registry"
-	"github.com/kartikaysaxena/substrateinterface/registry/exec"
-	"github.com/kartikaysaxena/substrateinterface/registry/parser"
-	"github.com/kartikaysaxena/substrateinterface/rpc/chain/generic"
-	"github.com/kartikaysaxena/substrateinterface/scale"
-	"github.com/kartikaysaxena/substrateinterface/types"
+	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/exec"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/parser"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain/generic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 var (
@@ -177,9 +177,9 @@ func (t *testChain[A, S, P]) GetTestFn() testFn {
 
 type AcalaMultiSignature struct {
 	IsEd25519     bool
-	AsEd25519     types.Signature
+	AsEd25519     types.SignatureHash
 	IsSr25519     bool
-	AsSr25519     types.Signature
+	AsSr25519     types.SignatureHash
 	IsEcdsa       bool
 	AsEcdsa       types.EcdsaSignature
 	IsEthereum    bool

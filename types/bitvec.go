@@ -7,7 +7,7 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 )
 
 type BitOrder uint

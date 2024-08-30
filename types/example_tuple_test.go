@@ -19,8 +19,8 @@ package types_test
 import (
 	"fmt"
 
-	. "github.com/kartikaysaxena/substrateinterface/types"
-	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 	"golang.org/x/crypto/blake2b"
 )
 

@@ -3,17 +3,18 @@ package generic
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
 	"strings"
 
-	"github.com/kartikaysaxena/substrateinterface/scale"
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/codec"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 )
 
 // DefaultGenericSignedBlock is the SignedBlock with defaults for the generic types:
 //
 // Address - types.MultiAddress
-// Signature - types.MultiSignature
+// SignatureHash - types.MultiSignature
 // PaymentFields - DefaultPaymentFields
 type DefaultGenericSignedBlock = SignedBlock[
 	types.MultiAddress,
@@ -62,7 +63,7 @@ type GenericExtrinsic[A, S, P any] interface {
 // A - Signer, the default implementation for this is the types.MultiAddress type
 // which can support a variable number of addresses.
 //
-// S - Signature, the default implementation for this is the types.MultiSignature type which can support
+// S - SignatureHash, the default implementation for this is the types.MultiSignature type which can support
 // multiple signature curves.
 //
 // P - PaymentFields (ChargeAssetTx in substrate), the default implementation for this is the DefaultPaymentFields which
@@ -180,14 +181,14 @@ func (e *Extrinsic[A, S, P]) UnmarshalJSON(bz []byte) error {
 //
 //nolint:revive
 func (e *Extrinsic[A, S, P]) IsSigned() bool {
-	return e.Version&types.ExtrinsicBitSigned == types.ExtrinsicBitSigned
+	return e.Version&extrinsic.BitSigned == extrinsic.BitSigned
 }
 
 // Type returns the raw transaction version.
 //
 //nolint:revive
 func (e *Extrinsic[A, S, P]) Type() uint8 {
-	return e.Version & types.ExtrinsicUnmaskVersion
+	return e.Version & extrinsic.UnmaskVersion
 }
 
 // Decode decodes the extrinsic based on the data present in the decoder.
@@ -204,7 +205,7 @@ func (e *Extrinsic[A, S, P]) Decode(decoder scale.Decoder) error {
 	}
 
 	if e.IsSigned() {
-		if e.Type() != types.ExtrinsicVersion4 {
+		if e.Type() != extrinsic.Version4 {
 			return fmt.Errorf("unsupported extrinsic version: %v (isSigned: %v, type: %v)", e.Version, e.IsSigned(),
 				e.Type())
 		}

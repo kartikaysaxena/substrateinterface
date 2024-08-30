@@ -1,12 +1,12 @@
 package retriever
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/registry"
-	"github.com/kartikaysaxena/substrateinterface/registry/exec"
-	"github.com/kartikaysaxena/substrateinterface/registry/parser"
-	"github.com/kartikaysaxena/substrateinterface/rpc/chain/generic"
-	"github.com/kartikaysaxena/substrateinterface/rpc/state"
-	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/exec"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/parser"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/chain/generic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/state"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 //nolint:lll
@@ -70,7 +70,7 @@ func NewExtrinsicRetriever[
 // DefaultExtrinsicRetriever is the ExtrinsicRetriever interface with default for the generic types:
 //
 // Address - types.MultiAddress
-// Signature - types.MultiSignature
+// SignatureHash - types.MultiSignature
 // PaymentFields - generic.DefaultPaymentFields
 type DefaultExtrinsicRetriever = ExtrinsicRetriever[
 	types.MultiAddress,
@@ -81,7 +81,7 @@ type DefaultExtrinsicRetriever = ExtrinsicRetriever[
 // NewDefaultExtrinsicRetriever returns a DefaultExtrinsicRetriever with defaults for the generic types:
 //
 // Address - types.MultiAddress
-// Signature - types.MultiSignature
+// SignatureHash - types.MultiSignature
 // PaymentFields - generic.DefaultPaymentFields
 // Block - *generic.DefaultGenericSignedBlock
 //

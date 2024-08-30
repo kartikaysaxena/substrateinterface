@@ -3,7 +3,7 @@
 package generic
 
 import (
-	types "github.com/kartikaysaxena/substrateinterface/types"
+	types "github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

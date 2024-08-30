@@ -17,7 +17,7 @@
 package system
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 // Version retrieves the version of the node

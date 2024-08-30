@@ -1,6 +1,6 @@
 package parser
 
-import libErr "github.com/kartikaysaxena/substrateinterface/error"
+import libErr "github.com/centrifuge/go-substrate-rpc-client/v4/error"
 
 const (
 	ErrEventsCountDecoding  = libErr.Error("events count decoding")

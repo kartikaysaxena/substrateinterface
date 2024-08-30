@@ -22,7 +22,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 func main() { //nolint: funlen

@@ -1,9 +1,9 @@
 package generic
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/client"
-	libErr "github.com/kartikaysaxena/substrateinterface/error"
-	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
+	libErr "github.com/centrifuge/go-substrate-rpc-client/v4/error"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 const (
@@ -45,7 +45,7 @@ func NewChain[
 // DefaultChain is the Chain interface with defaults for the generic types:
 //
 // Address - types.MultiAddress
-// Signature - types.MultiSignature
+// SignatureHash - types.MultiSignature
 // PaymentFields - DefaultPaymentFields
 // Block - *DefaultGenericSignedBlock
 type DefaultChain = Chain[

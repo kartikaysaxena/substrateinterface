@@ -19,16 +19,16 @@ package types_test
 import (
 	"testing"
 
-	. "github.com/kartikaysaxena/substrateinterface/types"
-	. "github.com/kartikaysaxena/substrateinterface/types/codec"
-	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
 )
 
 func TestSignature_EncodeDecode(t *testing.T) {
 	AssertRoundtrip(t, NewSignature(hash64))
-	AssertRoundTripFuzz[Signature](t, 100)
-	AssertDecodeNilData[Signature](t)
-	AssertEncodeEmptyObj[Signature](t, 64)
+	AssertRoundTripFuzz[SignatureHash](t, 100)
+	AssertDecodeNilData[SignatureHash](t)
+	AssertEncodeEmptyObj[SignatureHash](t, 64)
 }
 
 func TestSignature_EncodedLength(t *testing.T) {

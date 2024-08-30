@@ -17,7 +17,7 @@
 package types
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 )
 
 // PostDispatchInfo is used in DispatchResultWithPostInfo.
