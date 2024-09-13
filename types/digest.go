@@ -19,7 +19,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
 )
 
 // Digest contains logs

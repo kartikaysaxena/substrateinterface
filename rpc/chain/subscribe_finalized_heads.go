@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
-	gethrpc "github.com/centrifuge/go-substrate-rpc-client/v4/gethrpc"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/kartikaysaxena/substrateinterface/config"
+	gethrpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
+	"github.com/kartikaysaxena/substrateinterface/types"
 )
 
 // FinalizedHeadsSubscription is a subscription established through one of the Client's subscribe methods.

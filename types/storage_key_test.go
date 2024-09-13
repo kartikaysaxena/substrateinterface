@@ -18,15 +18,15 @@ package types_test
 
 import (
 	"fmt"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/kartikaysaxena/substrateinterface/scale"
 	"strings"
 	"testing"
 
-	"github.com/centrifuge/go-substrate-rpc-client/v4/hash"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	. "github.com/centrifuge/go-substrate-rpc-client/v4/types/test_utils"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/xxhash"
+	"github.com/kartikaysaxena/substrateinterface/hash"
+	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/kartikaysaxena/substrateinterface/types/test_utils"
+	"github.com/kartikaysaxena/substrateinterface/xxhash"
 	"github.com/stretchr/testify/assert"
 )
 

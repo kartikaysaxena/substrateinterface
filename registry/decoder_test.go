@@ -3,12 +3,12 @@ package registry
 import (
 	"bytes"
 	"errors"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/registry/test"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
-	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic/extensions"
+	"github.com/kartikaysaxena/substrateinterface/registry/test"
+	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/kartikaysaxena/substrateinterface/types/codec"
+	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
+	"github.com/kartikaysaxena/substrateinterface/types/extrinsic/extensions"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
