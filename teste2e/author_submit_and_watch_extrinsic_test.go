@@ -18,14 +18,14 @@ package teste2e
 
 import (
 	"fmt"
-	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
 	"testing"
 	"time"
 
-	"github.com/kartikaysaxena/substrateinterface/rpc/author"
-	"github.com/kartikaysaxena/substrateinterface/signature"
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/codec"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -50,7 +50,7 @@ func TestAuthor_SubmitAndWatchExtrinsic(t *testing.T) {
 	c, err := types.NewCall(meta, "Balances.transfer", bob, types.NewUCompactFromUInt(6969))
 	assert.NoError(t, err)
 
-	ext := extrinsic.NewExtrinsic(&c)
+	ext := extrinsic.NewExtrinsic(c)
 	assert.NoError(t, err)
 
 	genesisHash, err := api.RPC.Chain.GetBlockHash(0)

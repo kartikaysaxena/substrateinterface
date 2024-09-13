@@ -21,7 +21,7 @@ import (
 	"hash"
 	"strings"
 
-	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 )
 
 // Modelled after packages/types/src/Metadata/v7/Metadata.ts

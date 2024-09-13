@@ -17,9 +17,9 @@
 package author
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/codec"
-	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
 )
 
 // SubmitExtrinsic will submit a fully formatted extrinsic for block inclusion

@@ -17,7 +17,7 @@
 package beefy
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 )
 
 // GetFinalizedHead returns the hash of the latest BEEFY block

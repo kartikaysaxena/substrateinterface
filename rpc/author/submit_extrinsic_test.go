@@ -18,14 +18,14 @@ package author_test
 
 import (
 	"fmt"
-	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
 	"testing"
 
-	gsrpc "github.com/kartikaysaxena/substrateinterface"
-	"github.com/kartikaysaxena/substrateinterface/config"
-	"github.com/kartikaysaxena/substrateinterface/signature"
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/codec"
+	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -47,7 +47,7 @@ func TestAuthor_SubmitExtrinsic(t *testing.T) {
 
 	for {
 		// Create the extrinsic
-		ext := extrinsic.NewExtrinsic(&c)
+		ext := extrinsic.NewExtrinsic(c)
 		genesisHash, err := api.RPC.Chain.GetBlockHash(0)
 		assert.NoError(t, err)
 

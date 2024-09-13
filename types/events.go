@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 )
 
 // EventClaimsClaimed is emitted when an account claims some DOTs

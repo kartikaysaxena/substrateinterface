@@ -3,8 +3,8 @@
 package retriever
 
 import (
-	parser "github.com/kartikaysaxena/substrateinterface/registry/parser"
-	types "github.com/kartikaysaxena/substrateinterface/types"
+	parser "github.com/centrifuge/go-substrate-rpc-client/v4/registry/parser"
+	types "github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

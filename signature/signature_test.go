@@ -20,8 +20,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	. "github.com/kartikaysaxena/substrateinterface/signature"
-	"github.com/kartikaysaxena/substrateinterface/types/codec"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/signature"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
 	"github.com/stretchr/testify/assert"
 )
 

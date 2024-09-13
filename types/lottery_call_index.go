@@ -16,7 +16,7 @@
 
 package types
 
-import "github.com/kartikaysaxena/substrateinterface/scale"
+import "github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 
 type LotteryCallIndex struct {
 	PalletIndex U8

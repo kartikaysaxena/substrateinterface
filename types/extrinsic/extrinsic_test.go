@@ -17,17 +17,16 @@
 package extrinsic
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/signature"
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/codec"
-	"github.com/kartikaysaxena/substrateinterface/types/extrinsic/extensions"
-	testUtils "github.com/kartikaysaxena/substrateinterface/types/test_utils"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/codec"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic/extensions"
 	"github.com/stretchr/testify/assert"
 	"strings"
 	"testing"
 )
 
-func TestExtrinsic_Unsigned_EncodeDecode(t *testing.T) {
+func TestExtrinsic_Unsigned_Encode(t *testing.T) {
 	var meta types.Metadata
 
 	err := codec.DecodeFromHex(types.MetadataV14Data, &meta)
@@ -48,15 +47,9 @@ func TestExtrinsic_Unsigned_EncodeDecode(t *testing.T) {
 		"10"+"74657374", // remark
 		extEnc,
 	)
-
-	var extDec Extrinsic
-	err = codec.DecodeFromHex(extEnc, &extDec)
-	assert.NoError(t, err)
-
-	assert.Equal(t, ext, extDec)
 }
 
-func TestExtrinsic_Signed_EncodeEncode(t *testing.T) {
+func TestExtrinsic_Signed_Encode(t *testing.T) {
 	var meta types.Metadata
 
 	err := codec.DecodeFromHex(types.MetadataV14Data, &meta)
@@ -119,16 +112,96 @@ func TestExtrinsic_Signed_EncodeEncode(t *testing.T) {
 	)
 }
 
-func TestExtrinsic_JSONMarshalUnmarshal(t *testing.T) {
+func TestExtrinsic_Sign(t *testing.T) {
+	call := types.Call{}
+	extrinsic := NewExtrinsic(call)
+
 	var meta types.Metadata
 
 	err := codec.DecodeFromHex(types.MetadataV14Data, &meta)
 	assert.NoError(t, err)
 
-	c, err := types.NewCall(&meta, "System.remark", []byte("test"))
+	err = extrinsic.Sign(signature.TestKeyringPairAlice, &meta,
+		WithEra(types.ExtrinsicEra{IsImmortalEra: true}, types.Hash{}),
+		WithNonce(types.NewUCompactFromUInt(uint64(0))),
+		WithTip(types.NewUCompactFromUInt(0)),
+		WithSpecVersion(123),
+		WithTransactionVersion(456),
+		WithGenesisHash(types.Hash{}),
+		WithMetadataMode(extensions.CheckMetadataModeDisabled, extensions.CheckMetadataHash{Hash: types.NewEmptyOption[types.H256]()}),
+	)
+	assert.NoError(t, err)
+	assert.True(t, extrinsic.Version&BitSigned > 1)
+	assert.NotNil(t, extrinsic.Signature)
+}
+
+func TestExtrinsic_Sign_InvalidVersionError(t *testing.T) {
+	extrinsic := &Extrinsic{}
+
+	var meta types.Metadata
+
+	err := codec.DecodeFromHex(types.MetadataV14Data, &meta)
 	assert.NoError(t, err)
 
-	ext := NewExtrinsic(c)
+	err = extrinsic.Sign(signature.TestKeyringPairAlice, &meta,
+		WithEra(types.ExtrinsicEra{IsImmortalEra: true}, types.Hash{}),
+		WithNonce(types.NewUCompactFromUInt(uint64(0))),
+		WithTip(types.NewUCompactFromUInt(0)),
+		WithSpecVersion(123),
+		WithTransactionVersion(456),
+		WithGenesisHash(types.Hash{}),
+		WithMetadataMode(extensions.CheckMetadataModeDisabled, extensions.CheckMetadataHash{Hash: types.NewEmptyOption[types.H256]()}),
+	)
+	assert.ErrorIs(t, err, ErrInvalidVersion)
+}
 
-	testUtils.AssertJSONRoundTrip(t, &ext)
+func TestExtrinsic_Sign_PayloadCreationError(t *testing.T) {
+	call := types.Call{}
+	extrinsic := NewExtrinsic(call)
+
+	var meta types.Metadata
+
+	err := codec.DecodeFromHex(types.MetadataV14Data, &meta)
+	assert.NoError(t, err)
+
+	meta.AsMetadataV14.Extrinsic.SignedExtensions = append(
+		meta.AsMetadataV14.Extrinsic.SignedExtensions,
+		types.SignedExtensionMetadataV14{
+			Identifier:       "unsupported_extension",
+			Type:             types.Si1LookupTypeID{},
+			AdditionalSigned: types.Si1LookupTypeID{},
+		},
+	)
+
+	err = extrinsic.Sign(signature.TestKeyringPairAlice, &meta,
+		WithEra(types.ExtrinsicEra{IsImmortalEra: true}, types.Hash{}),
+		WithNonce(types.NewUCompactFromUInt(uint64(0))),
+		WithTip(types.NewUCompactFromUInt(0)),
+		WithSpecVersion(123),
+		WithTransactionVersion(456),
+		WithGenesisHash(types.Hash{}),
+		WithMetadataMode(extensions.CheckMetadataModeDisabled, extensions.CheckMetadataHash{Hash: types.NewEmptyOption[types.H256]()}),
+	)
+	assert.ErrorIs(t, err, ErrPayloadCreation)
+}
+
+func TestExtrinsic_Sign_MultiAddressCreationError(t *testing.T) {
+	call := types.Call{}
+	extrinsic := NewExtrinsic(call)
+
+	var meta types.Metadata
+
+	err := codec.DecodeFromHex(types.MetadataV14Data, &meta)
+	assert.NoError(t, err)
+
+	err = extrinsic.Sign(signature.KeyringPair{}, &meta,
+		WithEra(types.ExtrinsicEra{IsImmortalEra: true}, types.Hash{}),
+		WithNonce(types.NewUCompactFromUInt(uint64(0))),
+		WithTip(types.NewUCompactFromUInt(0)),
+		WithSpecVersion(123),
+		WithTransactionVersion(456),
+		WithGenesisHash(types.Hash{}),
+		WithMetadataMode(extensions.CheckMetadataModeDisabled, extensions.CheckMetadataHash{Hash: types.NewEmptyOption[types.H256]()}),
+	)
+	assert.ErrorIs(t, err, ErrMultiAddressCreation)
 }

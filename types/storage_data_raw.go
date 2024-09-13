@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/kartikaysaxena/substrateinterface/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 )
 
 // StorageDataRaw contains raw bytes that are not decoded/encoded.

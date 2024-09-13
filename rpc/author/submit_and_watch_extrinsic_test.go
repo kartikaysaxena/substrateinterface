@@ -1,14 +1,14 @@
 package author_test
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
 	"testing"
 
-	gsrpc "github.com/kartikaysaxena/substrateinterface"
-	"github.com/kartikaysaxena/substrateinterface/config"
-	"github.com/kartikaysaxena/substrateinterface/rpc/author"
-	"github.com/kartikaysaxena/substrateinterface/signature"
-	"github.com/kartikaysaxena/substrateinterface/types"
+	gsrpc "github.com/centrifuge/go-substrate-rpc-client/v4"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/config"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/rpc/author"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/signature"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -31,7 +31,7 @@ func TestAuthor_SubmitAndWatchExtrinsic(t *testing.T) {
 	var sub *author.ExtrinsicStatusSubscription
 	for {
 		// Create the extrinsic
-		ext := extrinsic.NewExtrinsic(&c)
+		ext := extrinsic.NewExtrinsic(c)
 		genesisHash, err := api.RPC.Chain.GetBlockHash(0)
 		assert.NoError(t, err)
 

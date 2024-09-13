@@ -1,6 +1,6 @@
 package types
 
-import "github.com/kartikaysaxena/substrateinterface/scale"
+import "github.com/centrifuge/go-substrate-rpc-client/v4/scale"
 
 type ProxyDefinition struct {
 	Delegate  AccountID

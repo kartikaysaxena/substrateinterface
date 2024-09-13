@@ -19,16 +19,15 @@
 package author
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/client"
-	"github.com/kartikaysaxena/substrateinterface/registry"
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/extrinsic"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/extrinsic"
 )
 
 type Author interface {
 	SubmitAndWatchExtrinsic(xt extrinsic.Extrinsic) (*ExtrinsicStatusSubscription, error)
 	SubmitExtrinsic(xt extrinsic.Extrinsic) (types.Hash, error)
-	PendingExtrinsics(meta *types.Metadata) ([]*registry.DecodedExtrinsic, error)
+	PendingExtrinsics() ([]string, error)
 }
 
 // author exposes methods for authoring of network items

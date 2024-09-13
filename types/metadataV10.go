@@ -22,9 +22,9 @@ import (
 	"hash"
 	"strings"
 
-	ghash "github.com/kartikaysaxena/substrateinterface/hash"
-	"github.com/kartikaysaxena/substrateinterface/scale"
-	"github.com/kartikaysaxena/substrateinterface/xxhash"
+	ghash "github.com/centrifuge/go-substrate-rpc-client/v4/hash"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/scale"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/xxhash"
 )
 
 // Modelled after packages/types/src/Metadata/v10/Metadata.ts

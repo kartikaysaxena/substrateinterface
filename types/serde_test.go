@@ -19,7 +19,7 @@ package types_test
 import (
 	"testing"
 
-	. "github.com/kartikaysaxena/substrateinterface/types"
+	. "github.com/centrifuge/go-substrate-rpc-client/v4/types"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -27,5 +27,5 @@ func TestSerDeOptionsFromMetadata(t *testing.T) {
 	meta := DecodedMetadataV14Example()
 
 	opts := SerDeOptionsFromMetadata(meta)
-	assert.False(t, opts.NoPalletIndices)
+	assert.True(t, opts.NoPalletIndices)
 }

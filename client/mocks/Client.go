@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	rpc "github.com/kartikaysaxena/substrateinterface/gethrpc"
+	rpc "github.com/centrifuge/go-substrate-rpc-client/v4/gethrpc"
 	mock "github.com/stretchr/testify/mock"
 )
 

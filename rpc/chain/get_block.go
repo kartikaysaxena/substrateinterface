@@ -17,9 +17,9 @@
 package chain
 
 import (
-	"github.com/kartikaysaxena/substrateinterface/client"
-	"github.com/kartikaysaxena/substrateinterface/types"
-	"github.com/kartikaysaxena/substrateinterface/types/block"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/client"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types"
+	"github.com/centrifuge/go-substrate-rpc-client/v4/types/block"
 )
 
 // GetBlock returns the header and body of the relay chain block with the given hash
@@ -33,10 +33,11 @@ func (c *chain) GetBlockLatest() (*block.SignedBlock, error) {
 }
 
 func (c *chain) getBlock(blockHash *types.Hash) (*block.SignedBlock, error) {
-	var SignedBlock block.SignedBlock
-	err := client.CallWithBlockHash(c.client, &SignedBlock, "chain_getBlock", blockHash)
+	var res block.SignedBlock
+	err := client.CallWithBlockHash(c.client, &res, "chain_getBlock", blockHash)
 	if err != nil {
 		return nil, err
 	}
-	return &SignedBlock, err
+
+	return &res, nil
 }
